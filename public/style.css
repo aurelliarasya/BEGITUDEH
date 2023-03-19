@@ -1,0 +1,53 @@
+.card {
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: #ffa3a3;
+    width: 33.3%;
+    position: center;
+    justify-content: center;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    transition: cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.card-info {
+    z-index: 2;
+    background-color: #fee7ff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+}
+
+.card-category {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-style: 500;
+    color: #868686;
+}
+
+.card-title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-by {
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.card-admin {
+    font-weight: 600;
+    text-decoration: none;
+    color: #ad7d52;
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 20em;
+        display: block;
+        margin: center;
+    }
